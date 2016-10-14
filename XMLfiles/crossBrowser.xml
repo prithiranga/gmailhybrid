@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="gmailMul" parallel="tests">
+
+  <test name="multipleLoginsFirefox">
+  <parameter name ="browser" value = "firefox"/>
+    <classes>
+      <class name="com.gmail.testcases.GmailMultipleLoginsPage"/>
+    </classes>
+  </test> <!-- multipleLogins -->
+  
+  <test name="multipleLoginsChrome">
+  <parameter name ="browser" value = "chrome"/>
+    <classes>
+      <class name="com.gmail.testcases.GmailMultipleLoginsPage"/>
+    </classes>
+  </test> <!-- multipleLogins -->
+  
+</suite> <!-- gmailMul -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="gmail">
+	<test name="gmailLoginFirefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.gmail.testcases.GmailLoginPage" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="gmailLoginChrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.gmail.testcases.GmailLoginPage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

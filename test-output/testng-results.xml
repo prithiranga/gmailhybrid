@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="gmailMul" duration-ms="158542" started-at="2016-10-12T20:21:08Z" finished-at="2016-10-12T20:23:47Z">
+    <groups>
+    </groups>
+    <test name="multipleLoginsChrome" duration-ms="124215" started-at="2016-10-12T20:21:08Z" finished-at="2016-10-12T20:23:12Z">
+      <class name="com.gmail.testcases.GmailMultipleLoginsPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="setup" is-config="true" duration-ms="3652" started-at="2016-10-13T01:51:10Z" finished-at="2016-10-13T01:51:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="getMultipleLogins" duration-ms="31502" started-at="2016-10-13T01:51:14Z" data-provider="multipleLogins" finished-at="2016-10-13T01:51:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satishkumarkilli@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[satish.it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultipleLogins -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="cleanup" is-config="true" duration-ms="7035" started-at="2016-10-13T01:51:45Z" finished-at="2016-10-13T01:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="verifyResult" is-config="true" duration-ms="0" started-at="2016-10-13T01:51:52Z" finished-at="2016-10-13T01:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMultipleLogins status=SUCCESS method=GmailMultipleLoginsPage.getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="setup" is-config="true" duration-ms="2416" started-at="2016-10-13T01:51:52Z" finished-at="2016-10-13T01:51:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="getMultipleLogins" duration-ms="18600" started-at="2016-10-13T01:51:55Z" data-provider="multipleLogins" finished-at="2016-10-13T01:52:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[businessa555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar1221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultipleLogins -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="cleanup" is-config="true" duration-ms="5523" started-at="2016-10-13T01:52:13Z" finished-at="2016-10-13T01:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="verifyResult" is-config="true" duration-ms="0" started-at="2016-10-13T01:52:19Z" finished-at="2016-10-13T01:52:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMultipleLogins status=SUCCESS method=GmailMultipleLoginsPage.getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="setup" is-config="true" duration-ms="2046" started-at="2016-10-13T01:52:19Z" finished-at="2016-10-13T01:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="getMultipleLogins" duration-ms="19781" started-at="2016-10-13T01:52:21Z" data-provider="multipleLogins" finished-at="2016-10-13T01:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.qa55@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar1221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultipleLogins -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="cleanup" is-config="true" duration-ms="6804" started-at="2016-10-13T01:52:41Z" finished-at="2016-10-13T01:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="verifyResult" is-config="true" duration-ms="1" started-at="2016-10-13T01:52:47Z" finished-at="2016-10-13T01:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMultipleLogins status=SUCCESS method=GmailMultipleLoginsPage.getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="setup" is-config="true" duration-ms="1712" started-at="2016-10-13T01:52:47Z" finished-at="2016-10-13T01:52:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="getMultipleLogins" duration-ms="17583" started-at="2016-10-13T01:52:49Z" data-provider="multipleLogins" finished-at="2016-10-13T01:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satish.it21@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[satish.it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultipleLogins -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="cleanup" is-config="true" duration-ms="5559" started-at="2016-10-13T01:53:07Z" finished-at="2016-10-13T01:53:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c]" name="verifyResult" is-config="true" duration-ms="0" started-at="2016-10-13T01:53:12Z" finished-at="2016-10-13T01:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMultipleLogins status=SUCCESS method=GmailMultipleLoginsPage.getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@68c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+      </class> <!-- com.gmail.testcases.GmailMultipleLoginsPage -->
+    </test> <!-- multipleLoginsChrome -->
+    <test name="multipleLoginsFirefox" duration-ms="158542" started-at="2016-10-12T20:21:08Z" finished-at="2016-10-12T20:23:47Z">
+      <class name="com.gmail.testcases.GmailMultipleLoginsPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="setup" is-config="true" duration-ms="6112" started-at="2016-10-13T01:51:10Z" finished-at="2016-10-13T01:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="getMultipleLogins" duration-ms="27923" started-at="2016-10-13T01:51:16Z" data-provider="multipleLogins" finished-at="2016-10-13T01:51:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satishkumarkilli@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[satish.it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultipleLogins -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="cleanup" is-config="true" duration-ms="5802" started-at="2016-10-13T01:51:44Z" finished-at="2016-10-13T01:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="verifyResult" is-config="true" duration-ms="0" started-at="2016-10-13T01:51:50Z" finished-at="2016-10-13T01:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMultipleLogins status=SUCCESS method=GmailMultipleLoginsPage.getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="setup" is-config="true" duration-ms="6643" started-at="2016-10-13T01:51:50Z" finished-at="2016-10-13T01:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="getMultipleLogins" duration-ms="28345" started-at="2016-10-13T01:51:57Z" data-provider="multipleLogins" finished-at="2016-10-13T01:52:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[businessa555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar1221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultipleLogins -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="cleanup" is-config="true" duration-ms="7106" started-at="2016-10-13T01:52:25Z" finished-at="2016-10-13T01:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="verifyResult" is-config="true" duration-ms="0" started-at="2016-10-13T01:52:32Z" finished-at="2016-10-13T01:52:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMultipleLogins status=SUCCESS method=GmailMultipleLoginsPage.getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="setup" is-config="true" duration-ms="5560" started-at="2016-10-13T01:52:32Z" finished-at="2016-10-13T01:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="getMultipleLogins" duration-ms="23997" started-at="2016-10-13T01:52:38Z" data-provider="multipleLogins" finished-at="2016-10-13T01:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.qa55@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar1221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultipleLogins -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="cleanup" is-config="true" duration-ms="7013" started-at="2016-10-13T01:53:02Z" finished-at="2016-10-13T01:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="verifyResult" is-config="true" duration-ms="0" started-at="2016-10-13T01:53:09Z" finished-at="2016-10-13T01:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMultipleLogins status=SUCCESS method=GmailMultipleLoginsPage.getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="setup" is-config="true" duration-ms="6468" started-at="2016-10-13T01:53:09Z" finished-at="2016-10-13T01:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="getMultipleLogins" duration-ms="26411" started-at="2016-10-13T01:53:15Z" data-provider="multipleLogins" finished-at="2016-10-13T01:53:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satish.it21@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[satish.it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultipleLogins -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="cleanup" is-config="true" duration-ms="5085" started-at="2016-10-13T01:53:42Z" finished-at="2016-10-13T01:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="verifyResult(org.testng.ITestResult)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402]" name="verifyResult" is-config="true" duration-ms="1" started-at="2016-10-13T01:53:47Z" finished-at="2016-10-13T01:53:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMultipleLogins status=SUCCESS method=GmailMultipleLoginsPage.getMultipleLogins(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testcases.GmailMultipleLoginsPage@675d3402] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+      </class> <!-- com.gmail.testcases.GmailMultipleLoginsPage -->
+    </test> <!-- multipleLoginsFirefox -->
+  </suite> <!-- gmailMul -->
+</testng-results>
